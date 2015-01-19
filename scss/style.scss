@@ -1,0 +1,11 @@
+/* Herro world! This file will import  your scss partials ( _example-name-syntax.scss )to be compiled into one stylesheet. That stylesheet can the be attach to your html */
+
+//Imports vars, mixins, and other modules
+@import 'base';
+@import "mixins";
+
+//components 
+/* where the maeat of your css goes, Type, Layout, other modular parts, buttons etc*/
+@import 'components/main';
+
+//Vendors

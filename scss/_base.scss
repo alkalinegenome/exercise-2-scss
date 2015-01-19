@@ -1,0 +1,20 @@
+/* This file imports your scss partials to be compiled */
+
+//Variables
+/* Variables are places for sharing information that you want to reuse throught your stylesheet. You can store things like colors, font-stacks, or any css value you can think of. Variables are declared using '$' */
+
+//Colors
+$bg: #f5f5f5;
+$l1: #FFA07A;
+$l2: #FFE4B5;
+$l3: #66CDAA;
+$l4: #48D1CC;
+$l5: #BA55D3;
+
+//Fonts
+$sans: Arimo, Helvetica, Arial, sans-serif;
+
+//Attributes
+
+$trans3: all ease-out 300ms;
+@trans2: all ease-out 200ms;
