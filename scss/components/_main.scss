@@ -3,3 +3,22 @@ body {
 	font-family: $sans;
 }
 
+.primary-btn {
+	@include button($primary, #fff, $l1);
+}
+
+.secondary-btn {
+	@include button($secondary, #000, $l2);
+}
+
+.border {
+	border: 3px solid slategrey;
+	p {
+		background: green;
+	}
+}
+
+ul {
+	@extend .border;
+}
+
