@@ -69,11 +69,7 @@ h1 {
 }
 
 .nav li a {
-	-webkit-transition: all ease-out 300ms;
-	-moz-transition: all ease-out 300ms;
-	-ms-transition:  all ease-out 300ms;
-	-o-transition:  all ease-out 300ms;
-	transition: all ease-out 300ms;
+	@include transition($trans3, $trans3, $trans3, $trans3, $trans3);
 }
 
 .nav a {
@@ -269,11 +265,7 @@ em {
 }
 
 li {
-	-webkit-transition: all ease-out 300ms;
-	-moz-transition: all ease-out 300ms;
-	-ms-transition:  all ease-out 300ms;
-	-o-transition:  all ease-out 300ms;
-	transition: all ease-out 300ms;
+	@include transition($trans3, $trans3, $trans3, $trans3, $trans3);
 }
 
 /* =========== LEVEL ONE =========== */
@@ -345,11 +337,7 @@ li {
 
 .btn-3:hover ~ li {
 	transform: translateY(400px);
-	-webkit-transition: all ease-in 200ms;
-	-moz-transition: all ease-in 200ms;
-	-ms-transition:  all ease-in 200ms;
-	-o-transition:  all ease-in 200ms;
-	transition: all ease-in 200ms;
+	@include transition($trans2, $trans2, $trans2, $trans2, $trans2);
 }
 
 /* =========== LEVEL FOUR =========== */

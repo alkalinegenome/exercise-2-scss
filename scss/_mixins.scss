@@ -13,3 +13,12 @@
 	}
 }*/
 
+
+@mixin transition ($wk-trans, $mz-trans, $ms-trans, $o-trans, $t-trans){
+	-webkit-transition: $wk-trans;
+	-moz-transition: $mz-trans;
+	-ms-transition: $ms-trans;
+	-o-transition: $o-trans;
+	transition: $t-trans;
+
+}
