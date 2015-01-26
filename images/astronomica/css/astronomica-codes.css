@@ -1,0 +1,14 @@
+
+.icon-astronomica-waxing:before { content: '\e800'; } /* '' */
+.icon-astronomica-satellite:before { content: '\e801'; } /* '' */
+.icon-astronomica-telescope:before { content: '\e802'; } /* '' */
+.icon-astronomica-align:before { content: '\e803'; } /* '' */
+.icon-astronomica-meteor:before { content: '\e804'; } /* '' */
+.icon-astronomical-jupiter:before { content: '\e805'; } /* '' */
+.icon-astronomica-solar:before { content: '\e806'; } /* '' */
+.icon-astronomica-lunar:before { content: '\e807'; } /* '' */
+.icon-astronomica-comet:before { content: '\e808'; } /* '' */
+.icon-astronomica-full:before { content: '\e809'; } /* '' */
+.icon-astronomica-new:before { content: '\e80a'; } /* '' */
+.icon-astronomica-aurora:before { content: '\e80b'; } /* '' */
+.icon-astronomica-waning:before { content: '\e80c'; } /* '' */

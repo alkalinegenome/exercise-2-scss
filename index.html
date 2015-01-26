@@ -3,29 +3,95 @@
 <head>
 	<meta charset="utf-8">
 	<title>Responsive Setup</title>
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link href="css/astronomica.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arimo:700' rel='stylesheet' type='text/css'></head>
 <body>
+	<div class="main-title">
+		<h1>Astronomica</h1>
+		<div class="nav">
+			<nav>
+				<ul>
+					<li class="unit unit-s-20 unit-m-20 unit-l-20"><a href="#lvlone">1</a></li>
+					<li class="unit unit-s-20 unit-m-20 unit-l-20"><a href="#lvltwo">2</a></li>
+					<li class="unit unit-s-20 unit-m-20 unit-l-20"><a href="#lvlthree">3</a></li>
+					<li class="unit unit-s-20 unit-m-20 unit-l-20"><a href="#lvlfour">4</a></li>
+					<li class="unit unit-s-20 unit-m-20 unit-l-20"><a href="#lvlfive">5</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</div>
+	
+	<div id="lvlone" class="level-section">
+		<div class="level one">
+			<h2>Level 1 Powers — Engineered Ingenuity</h2>
+		</div>	
+		<div class="level-icons iconone">
+			<ul class="l1-icons">
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-4-8">	<a href="#lvlone"><i class="icon-astronomica-telescope"></i> <br /><em>Telescope</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-4-8">	<a href="#lvlone"><i class="icon-astronomica-satellite"></i> <br /><em>Satellite</em></a>	</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="lvltwo" class="level-section">
+		<div class="level two">
+			<h2>Level 2 Powers — Lunar Shift</h2>
+		</div>	
+		<div class="level-icons icontwo">
+			<ul class="l2-icons">
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-2-8">	<a href="#lvltwo"><i class="icon-astronomica-waxing"></i> <br /><em>Waxing Moon</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-2-8">	<a href="#lvltwo"><i class="icon-astronomica-waning"></i> <br /><em>Waning Moon</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-2-8">	<a href="#lvltwo"><i class="icon-astronomica-full"></i> <br /><em>Full Moon</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-4-8 unit-l-2-8">	<a href="#lvltwo"><i class="icon-astronomica-new"></i> <br /><em>New Moon</em></a>	</li>
+			</ul>		
+		</div>
+	</div>
+	
+	<div id="lvlthree" class="level-section">
+		<div class="level three">
+			<h2>Level 3 Powers —  Awe</h2>
+		</div>	
+		<div class="level-icons iconthree">
+			<ul class="l3-icons">
+				<li class="unit unit-s-1 unit-m-33 unit-l-33 solar btn-3 solar">	<a class="btn-3" href="#lvlthree"><i class="icon-astronomica-solar"></i> <br /><em>Solar Eclipse</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-33 unit-l-33 lunar btn-3 lunar">	<a  class="btn-3" href="#lvlthree"><i class="icon-astronomica-lunar"></i> <br /><em>Lunar Eclipse</em></a>	</li>
+				<li class="unit unit-s-1 unit-m-33 unit-l-33 aurora btn-3 aurora">	<a  class="btn-3" href="#lvlthree"><i class="icon-astronomica-aurora"></i> <br /><em>Aurora</em></a>	</li>
+			</ul>	
+		</div>
+	</div>
+	
+	<div id="lvlfour" class="level-section">
+		<div class="level four">
+			<h2>Level 4 Powers — Shock and Awe</h2>
+		</div>	
+		<div class="level-icons iconfour">
+			<ul class="l4-icons">
+				<li class="unit unit-s-1 unit-m-33 unit-l-33">	<a href="#lvlfour"><i class="icon-astronomica-meteor"></i> <br />Meteor Shower</a>	</li>
+				<li class="unit unit-s-1 unit-m-33 unit-l-33">	<a href="#lvlfour"><i class="icon-astronomica-comet"></i> <br />Comet Graze</a>	</li>
+				<li class="unit unit-s-1 unit-m-33 unit-l-33">	<a href="#lvlfour"><i class="icon-astronomica-jupiter"></i> <br />Create-A-Planet</a>	</li>
+			</ul>	
+		</div>
+	</div>
+	
+	<div id="lvlfive" class="level-section">
+		<div class="level five">
+			<h2>Level 5 Powers — Deity</h2>
+		</div>
+		<div class="level-icons iconfive">
+			<ul class="l5-icons">
+				<li class="unit unit-s-1 unit-m-1 unit-l-1">	<a href="#lvlfive"><i class="icon-astronomica-align"></i> <br /><em>Civilization Ending Planetary <del>Alignment</del> Pinball</em></a>	</li>
+			</ul>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	<script src="js/general.js"></script> 
+	
 
-	<h1>Intro to SCSS</h1>
-    
-    <a href="#" class="primary-btn">Primary</a>
-    <a href="#" class="secondary-btn">Secondary Button</a>
-        
-    <div class="border">
-      <p>This is a nested paragraph</p>
-    </div>
-
-    <p>This is a paragraph.</p>
-    
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
-    
 </body>
 </html>

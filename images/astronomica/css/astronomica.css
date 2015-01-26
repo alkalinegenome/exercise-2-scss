@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'astronomica';
+  src: url('../font/astronomica.eot?96358987');
+  src: url('../font/astronomica.eot?96358987#iefix') format('embedded-opentype'),
+       url('../font/astronomica.woff?96358987') format('woff'),
+       url('../font/astronomica.ttf?96358987') format('truetype'),
+       url('../font/astronomica.svg?96358987#astronomica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'astronomica';
+    src: url('../font/astronomica.svg?96358987#astronomica') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "astronomica";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-astronomica-waxing:before { content: '\e800'; } /* '' */
+.icon-astronomica-satellite:before { content: '\e801'; } /* '' */
+.icon-astronomica-telescope:before { content: '\e802'; } /* '' */
+.icon-astronomica-align:before { content: '\e803'; } /* '' */
+.icon-astronomica-meteor:before { content: '\e804'; } /* '' */
+.icon-astronomical-jupiter:before { content: '\e805'; } /* '' */
+.icon-astronomica-solar:before { content: '\e806'; } /* '' */
+.icon-astronomica-lunar:before { content: '\e807'; } /* '' */
+.icon-astronomica-comet:before { content: '\e808'; } /* '' */
+.icon-astronomica-full:before { content: '\e809'; } /* '' */
+.icon-astronomica-new:before { content: '\e80a'; } /* '' */
+.icon-astronomica-aurora:before { content: '\e80b'; } /* '' */
+.icon-astronomica-waning:before { content: '\e80c'; } /* '' */

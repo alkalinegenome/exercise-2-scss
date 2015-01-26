@@ -1,3 +1,4 @@
+/*
 body {
 	background-color: $bg;
 	font-family: $sans;
@@ -21,4 +22,23 @@ body {
 ul {
 	@extend .border;
 }
+*/
 
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
