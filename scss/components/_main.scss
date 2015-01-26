@@ -364,16 +364,23 @@ li {
 
 .l5-icons li:hover {
 	color: #F5F5F5;
+	em {
+	display:none;
+	}
+	i {
+	font-size: 10rem;
+	text-shadow: 2px 2px #BA55D3;
+}
 }
 
-.l5-icons li:hover em {
+/*.l5-icons li:hover em {
 	display:none;
 }
 
 .l5-icons li:hover i {
 	font-size: 10rem;
 	text-shadow: 2px 2px #BA55D3;
-}
+}*/
 
 @media only screen and (min-width: 50em) { 
 

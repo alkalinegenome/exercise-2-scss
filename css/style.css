@@ -390,44 +390,50 @@ li {
 /* line 365, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .l5-icons li:hover {
   color: #F5F5F5; }
+  /* line 367, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+  .l5-icons li:hover em {
+    display: none; }
+  /* line 370, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+  .l5-icons li:hover i {
+    font-size: 10rem;
+    text-shadow: 2px 2px #BA55D3; }
 
-/* line 369, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
-.l5-icons li:hover em {
-  display: none; }
+/*.l5-icons li:hover em {
+	display:none;
+}
 
-/* line 373, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .l5-icons li:hover i {
-  font-size: 10rem;
-  text-shadow: 2px 2px #BA55D3; }
-
+	font-size: 10rem;
+	text-shadow: 2px 2px #BA55D3;
+}*/
 @media only screen and (min-width: 50em) {
-  /* line 380, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+  /* line 387, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
   .l5-icons li:hover i {
     font-size: 15rem; }
  }
 
 /* =========== ICON LEVELS =========== */
-/* line 387, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 394, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .iconone {
   background-color: rgba(250, 128, 114, 0.4); }
 
-/* line 391, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 398, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .icontwo {
   background-color: rgba(255, 228, 181, 0.35); }
 
-/* line 395, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 402, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .iconthree {
   background-color: rgba(102, 205, 170, 0.5); }
 
-/* line 399, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 406, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .iconfour {
   background-color: rgba(72, 209, 204, 0.5); }
 
-/* line 403, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 410, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 .iconfive {
   background-color: rgba(186, 85, 211, 0.5); }
 
-/* line 407, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
+/* line 414, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/exercise-2-scss/scss/components/main */
 a {
   text-decoration: none;
   color: inherit; }
